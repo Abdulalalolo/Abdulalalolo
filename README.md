@@ -1,20 +1,49 @@
-bar
-title The resource allocation to the NA is adequate to support mission requirement and investment in modernisation
-label 583 responses
-x-axis
-    1
-    2
-    3
-    4
-    5
-y-axis
-    0
-    50
-    100
-    150
-    200
-bar 1: 67 (11.5%)
-bar 2: 121 (20.8%)
-bar 3: 165 (28.3%)
-bar 4: 107 (18.4%)
-bar 5: 123 (21.1%)
+<style>
+  .subscribe-button {
+    background-color: rgb(200, 0, 0);
+    color: white;
+    border: none;
+    height: 36px;
+    width: 105px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 8px;
+  }
+  .join-button {
+    background-color: white;
+    border-color: rgb(75, 75, 248);
+    border-style: solid;
+    border-width: 1px;
+    color: rgb(75, 75, 248);
+    height: 36px;
+    width: 62px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 8px;
+  }
+  .tweet-button{
+    background-color: rgb(0, 110, 255);
+    border: none;
+    border-width: 1px;
+    color: rgb(252, 252, 252);
+    height: 36px;
+    width: 74px;
+    border-radius: 18px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    margin-right: 8px;
+  }
+</style>
+
+<button class="subscribe-button">
+  SUBSCRIBE
+</button>
+
+<button class="join-button">
+  JOIN
+</button>
+
+<button class="tweet-button">
+  Tweet
+</button>
